@@ -1,3 +1,3 @@
 FROM almalinux:9
-ADD https://raw.githubusercontent.com/NagamaniPalemkota/expenses-documention/main/backend.MD /tmp/sample.txt
-CMD ["sleep" , "80"]
+ADD sample-1.tar /tmp/
+CMD ["sleep", "80"]
