@@ -1,6 +1,8 @@
 ARG Version
 FROM almalinux:${Version:-8} 
 #can set default arg for Version using :-
+    RUN adduser EXPENSE
+USER EXPENSE
 ARG COURSE=DEVOPS 
 ARG TRAINER=SIVA
 ENV Duration="3 months"
